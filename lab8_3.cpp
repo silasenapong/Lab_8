@@ -50,7 +50,7 @@ int main()
             std::cout << "Enter your bounty: ";
             std::cin >> bounty;
 
-            if (bounty >= 500000000)
+            if (bounty > 500000000)
             {
                 character = "Jinbe";
             }
